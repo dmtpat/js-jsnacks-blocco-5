@@ -6,6 +6,6 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
-let namesArray = people.map((element, i, array) => (element.name))
+const namesArray = people.map((element, i, array) => (element.name))
 
 console.log(namesArray.join(", "));
